@@ -4,13 +4,14 @@ $("h1").click(function() {
   alert("I told you, THIS IS A HEADER!") ;
 });
 
-$("p").click(function() {
+$("p").hover(function() {
   alert("This is a paragraph.");
 });
 
 $("img").click(function() {
   alert("This is an image.");
 });
-
+$("h2").dblclick(function() {
+  alert("this page is awesome");
 });
-$("h2").click
+});
